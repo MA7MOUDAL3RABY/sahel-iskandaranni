@@ -1,10 +1,19 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <Web>
+      <router-view />
+    </Web>
   </nav>
-  <router-view/>
 </template>
+
+<script>
+import Web from "@/layouts/web.vue";
+export default {
+  components: {
+    Web
+  }
+};
+</script>
 
 <style lang="scss">
 #app {
