@@ -1,34 +1,29 @@
 <template>
   <div>
     <v-app>
-      <header>
-        <v-app-bar color="white">
-          <v-row justify="between">
-            <v-col cols="2">
-              <v-img class="my-2" src="@/assets/logo.png"></v-img>
-            </v-col>
-            <v-col>
-              <v-item-list>test</v-item-list>
-            </v-col>
-          </v-row>
-        </v-app-bar>
-      </header>
-
+      <app-header></app-header>
+      <v-spacer></v-spacer>
       <v-container>
-        <v-btn color="primary">Click me</v-btn>
+        <router-view></router-view>
       </v-container>
 
-      <footer></footer>
+      <app-footer></app-footer>
     </v-app>
   </div>
 </template>
 <script>
+import AppHeader from "@/components/Header.vue";
+import AppFooter from "@/components/Footer.vue";
 export default {
-  data() {
-    return {
-      drawer: true,
-      rail: true
-    };
+  components: {
+    AppHeader,
+    AppFooter
   }
 };
 </script>
+
+<style lang="scss">
+.v-toolbar__content {
+  height: 100px !important;
+}
+</style>
