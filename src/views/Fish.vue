@@ -56,7 +56,6 @@ export default {
 
           price: "85",
           calories: "458",
-          image: require("@/assets/image009.png"),
         },
         {
           name: "كنعد",
@@ -66,7 +65,6 @@ export default {
 
           price: "80",
           calories: 781,
-          image: require("@/assets/image009.png"),
         },
         {
           name: "دنيس",
@@ -76,7 +74,6 @@ export default {
 
           price: "60",
           calories: 658,
-          image: require("@/assets/image009.png"),
         },
         {
           name: "ناجل الدمام",
@@ -86,28 +83,28 @@ export default {
 
           price: "60",
           calories: 781,
-          image: require("@/assets/image009.png"),
         },
         {
-          name: "جمبري وسط (مشوي – مقلي) (زبدة - شيش)",
-          nameen: "Medium Shrimp(grilled - fried) (butter - skewers)",
-          price: "$10.99",
-          calories: 180,
-          image: require("@/assets/image029.png"),
+          name: " جمبري وسط  ",
+          arabicDescription: "  (مشوي – مقلي) (زبدة - شيش) ",
+
+          nameen: "Medium Shrimp ",
+          englishDescription: " (grilled - fried) (butter - skewers) ",
+
+          price: "80",
+          calories: 456,
         },
         {
           name: "كابوريا مشوي",
           nameen: "Grilled Crabs",
-          price: "$8.99",
-          calories: 150,
-          image: require("@/assets/image030.png"),
+          price: "55",
+          calories: 652,
         },
         {
           name: "كابوريا مخلية بالكريمة ",
           nameen: "Creamy Crab Meat",
-          price: "$8.99",
-          calories: 150,
-          image: require("@/assets/image030.png"),
+          price: "60",
+          calories: 359,
         },
         // Add more fish items here as needed
       ],
@@ -158,7 +155,7 @@ export default {
 .item-description {
   font-size: 18px;
   color: #007bff; /* You can adjust the color to match your design */
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .price-description {
