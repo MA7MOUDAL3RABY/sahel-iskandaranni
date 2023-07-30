@@ -20,8 +20,8 @@ export default createVuetify({
       rtl: true,
       light: {
         colors: {
-          primary: '#34b1f4',
-          secondary: '#52d1db',
+          primary: '#015d71',
+          secondary: '#56cede',
         },
       },
     },

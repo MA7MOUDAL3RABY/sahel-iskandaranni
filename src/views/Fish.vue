@@ -18,13 +18,7 @@
             target="_blank"
             variant="text"
           >
-            <v-icon
-              icon="mdi-view-dashboard"
-              size="large"
-              start
-            />
-
-            Components
+            <v-icon icon="mdi-view-dashboard" size="large" start />Components
           </v-btn>
         </v-col>
 
@@ -38,13 +32,7 @@
             target="_blank"
             variant="flat"
           >
-            <v-icon
-              icon="mdi-speedometer"
-              size="large"
-              start
-            />
-
-            Get Started
+            <v-icon icon="mdi-speedometer" size="large" start />Get Started
           </v-btn>
         </v-col>
 
@@ -56,13 +44,7 @@
             target="_blank"
             variant="text"
           >
-            <v-icon
-              icon="mdi-account-group"
-              size="large"
-              start
-            />
-
-            Community
+            <v-icon icon="mdi-account-group" size="large" start />Community
           </v-btn>
         </v-col>
       </v-row>
@@ -71,5 +53,5 @@
 </template>
 
 <script setup>
-  //
+//
 </script>
