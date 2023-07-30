@@ -1,6 +1,5 @@
 <template>
   <div>
-    <v-btn>Button</v-btn>
 
     <!-- Your other layout content goes here -->
   </div>
