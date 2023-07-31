@@ -24,7 +24,10 @@
         </div>
         <!-- <div class="text-grey my-3 text-center ms-4">4.5 (413)</div> -->
 
-        <div class="my-4 text-success font-20">Price: {{ item.price }}</div>
+        <div class="my-4 text-success font-20">
+          <v-icon color="light" icon="mdi-cash" size="small"></v-icon>
+          Price: {{ item.price }}
+        </div>
       </v-row>
     </v-card-text>
     <!-- <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div> -->
