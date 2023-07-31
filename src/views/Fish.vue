@@ -41,7 +41,7 @@ export default {
     return {
       items: [
         {
-          img: "/food/salmon.png",
+          img: "food/griled-fish/2.png",
           name: { en: "Salmon", ar: " سلمون" },
           price: "85",
           rate: "3",
@@ -69,25 +69,40 @@ export default {
           calories: 781
         },
         {
+<<<<<<< HEAD
           img: "/food/salmon.png",
           name: { en: "Medium Shrimp ", ar: " جمبري وسط  " },
+=======
+          img: "salmon.png",
+          name: { en: "White Sea Bass", ar: "قاروص أبيض"},
+>>>>>>> f5c82f760e35e4bba6d9f20e542d7f6e98deff21
           price: "80",
-          rate: "5",
-          calories: 456
+          rate: null,
+          calories: 499
         },
         {
+<<<<<<< HEAD
           img: "/food/salmon.png",
           name: { en: "Grilled Crabs", ar: "كابوريا مشوي" },
+=======
+          img: "salmon.png",
+          name: { en: "Black Sea Bass", ar: "قاروص اسود"},
+>>>>>>> f5c82f760e35e4bba6d9f20e542d7f6e98deff21
           price: "55",
-          rate: "3.5",
-          calories: 652
+          rate: null,
+          calories: 478
         },
         {
+<<<<<<< HEAD
           img: "/food/salmon.png",
           name: { en: "Creamy Crab Meat", ar: "كابوريا مخلية بالكريمة " },
+=======
+          img: "salmon.png",
+          name: { en: "Spangled Emperor Sheeri", ar: "شعور" },
+>>>>>>> f5c82f760e35e4bba6d9f20e542d7f6e98deff21
           price: "60",
-          rate: "4.5",
-          calories: 359
+          rate: null,
+          calories: 951
         }
         // Add more fish items here as needed
       ]

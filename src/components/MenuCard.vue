@@ -9,7 +9,7 @@
     :data-aos-delay="(index * 250)"
     data-aos-anchor-placement="top-center"
   >
-    <img height="250" :src="`@/assets/food/${item.img}`" />
+    <img height="250" :src="`@/assets/${item.img}`" />
 
     <v-card-item>
       <v-card-title class="font-30 py-2">{{item.name.ar}}</v-card-title>
