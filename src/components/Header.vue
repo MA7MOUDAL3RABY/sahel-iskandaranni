@@ -5,7 +5,7 @@
         <v-row align="center" justify="space-between">
           <v-col cols="2">
             <v-app-bar-title>
-              <v-img width="150" class="my-2" src="@/assets/logo.png"></v-img>
+              <v-img width="150" class="my-2" src="logo.png"></v-img>
             </v-app-bar-title>
           </v-col>
           <v-col class="d-flex justify-end">

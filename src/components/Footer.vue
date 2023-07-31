@@ -8,7 +8,7 @@
         </v-col>
         <v-col cols="12" lg="4">
           <div class="image">
-            <img src="@/assets/logo.png" alt="logo" />
+            <img src="@/logo.png" alt="logo" />
           </div>
         </v-col>
         <v-col cols="12" lg="4">
