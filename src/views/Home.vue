@@ -1,15 +1,16 @@
 <template>
   <div>
-    <v-spacer></v-spacer>
-    <div class="my-5"></div>
     <h2 class="font-70 text-center heading">ساحل إسكندراني</h2>
     <h2 class="sub-heading text-center">للمأكولات البحرية</h2>
     <div class="my-5"></div>
     <div class="d-flex align-center justify-center" data-aos="flip-in">
       <v-col cols="12" lg="6">
+        <div class="my-5"></div>
         <v-img class="my-2" src="/home-image.png"></v-img>
+        <div class="my-5"></div>
       </v-col>
     </div>
+    <v-spacer></v-spacer>
     <div class="my-5"></div>
   </div>
 </template>
