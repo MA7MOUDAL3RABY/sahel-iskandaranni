@@ -9,7 +9,7 @@
     </h3> -->
     <div class="menu-items">
       <v-row align="center" justify="center">
-        <v-col cols="12" md="4" v-for="(item, index) in fishItems" :key="index" class="menu-item">
+        <v-col cols="12" md="4" v-for="(item, index) in items" :key="index" class="menu-item">
           <MenuCard :index="index" :item="item" />
           <!-- <div class="price-column">
             <div class="food-price">{{ item.price }}</div>
@@ -37,7 +37,7 @@ export default {
   components: { MenuCard },
   data() {
     return {
-      fishItems: [
+      items: [
         {
           img: "salmon.png",
           name: { en: "Green Salad", ar: "سلطة خضراء" },
