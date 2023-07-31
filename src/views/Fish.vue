@@ -1,17 +1,36 @@
 <template>
   <div class="menu">
     <h1 class="category-title font-70 text-center">Fish - اسماك</h1>
+<<<<<<< HEAD
+    <h3 class="category-description font-25 text-center">
+      Request upon - حسب الطلب
+    </h3>
+    <h3 class="category-description font-25 text-center">
+      ( زيت وليمون – سنجاري – مشوي – مقلي – جريل – صنيه بطاطس )
+    </h3>
+=======
     <h3 class="category-description font-25 text-center">Request upon - حسب الطلب</h3>
     <h3
       class="category-description font-25 text-center"
     >( زيت وليمون – سنجاري – مشوي – مقلي – جريل – صنيه بطاطس )</h3>
+>>>>>>> cdec2ea099c70c0bbffba8a1064564b24d7677fe
     <h3 class="category-description font-25 text-center">
       Oil &Lemon- Baked w/Vegetables “Singari” -Grilled - Fried-Griddle –
       Tray-Baked w/ Potatoes
     </h3>
     <div class="menu-items">
       <v-row align="center" justify="center">
+<<<<<<< HEAD
+        <v-col
+          cols="12"
+          md="4"
+          v-for="(item, index) in fishItems"
+          :key="index"
+          class="menu-item"
+        >
+=======
         <v-col cols="12" md="4" v-for="(item, index) in items" :key="index" class="menu-item">
+>>>>>>> cdec2ea099c70c0bbffba8a1064564b24d7677fe
           <MenuCard :index="index" :item="item" />
           <!-- <div class="price-column">
             <div class="food-price">{{ item.price }}</div>
@@ -41,7 +60,7 @@ export default {
     return {
       items: [
         {
-          img: "food/griled-fish/2.png",
+          img: "food/2.png",
           name: { en: "Salmon", ar: " سلمون" },
           price: "85",
           rate: "3",
@@ -103,7 +122,29 @@ export default {
           price: "60",
           rate: null,
           calories: 951
-        }
+        },
+        {
+          img: "salmon.png",
+          name: { en: "Grey Mullet", ar: "بوري" },
+          price: "55",
+          rate: null,
+          calories: 358
+        },
+        {
+          img: "salmon.png",
+          name: { en: "Fresh Tilapias", ar: "بلطي حى" },
+          price: "32",
+          rate: null,
+          calories: 785
+        },
+        {
+          img: "salmon.png",
+          name: { en: "Mackerel", ar: "ماكريل" },
+          price: "38",
+          rate: null,
+          calories: 726
+        },
+
         // Add more fish items here as needed
       ]
     };
