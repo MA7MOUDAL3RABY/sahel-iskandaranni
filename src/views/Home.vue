@@ -70,16 +70,33 @@ export default {
   margin-top: 5px;
   color: #555; /* You can adjust the color to match your design */
 }
-.big-images {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Align the images to the left */
-  margin-top: 20px;
+
+/* Media Queries for Responsive Design */
+
+/* For smaller devices (e.g., phones) */
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+
+  .sub-heading {
+    font-size: 30px;
+  }
 }
 
-.big-images img {
-  width: 200px; /* Adjust the width of the big images */
-  height: 200px; /* Adjust the height of the big images */
-  margin-bottom: 20px; /* Add spacing between the big images */
+/* For medium-sized devices (e.g., tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .heading {
+    font-size: 50px;
+  }
+
+  .sub-heading {
+    font-size: 40px;
+  }
+}
+
+/* For larger devices (e.g., desktops) */
+@media screen and (min-width: 1025px) {
+  /* No changes needed for larger devices */
 }
 </style>

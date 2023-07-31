@@ -2,30 +2,10 @@
 <template>
   <div class="menu">
     <h1 class="category-title font-70">Meals - الوجبات – السلطات</h1>
-    <!-- <h3 class="category-description font-30">Request upon - حسب الطلب</h3>
-    <h3 class="category-description font-30">( زيت وليمون – سنجاري – مشوي – مقلي – جريل – صنيه بطاطس )</h3>
-    <h3 class="category-description font-30">
-      Oil &Lemon- Baked w/Vegetables “Singari” -Grilled - Fried-Griddle –
-      Tray-Baked w/ Potatoes
-    </h3> -->
     <div class="menu-items">
       <v-row align="center" justify="center">
         <v-col cols="12" md="4" v-for="(item, index) in items" :key="index" class="menu-item">
           <MenuCard :index="index" :item="item" />
-          <!-- <div class="price-column">
-            <div class="food-price">{{ item.price }}</div>
-            <div class="calories">{{ item.calories }}CAL</div>
-          </div>
-          <div class="food-details">
-            <div class="food-name">{{ item.name }}</div>
-            <div v-if="item.arabicDescription" class="food-description">{{ item.arabicDescription }}</div>
-            <div class="food-nameen">{{ item.nameen }}</div>
-
-            <div
-              v-if="item.englishDescription"
-              class="food-description"
-            >{{ item.englishDescription }}</div>
-          </div>-->
         </v-col>
       </v-row>
     </div>
@@ -40,31 +20,31 @@ export default {
     return {
       items: [
         {
-          img: "salmon.png",
-          name: { en: "Grey Mullet Meal", ar: "وجبة بوري ( حبة بوري – أرز – سلطات)" },
+          img: "/food/meals/meal1.jpeg",
+          name: { en: "Grey Mullet Meal", ar: "وجبة بوري " },
           price: "40",
           rate: null,
           calories: "876"
         },
         {
-          img: "salmon.png",
-          name: { en: "Tilapia Meal", ar: "وجبة بلطي ( حبة بلطي– أرز – سلطات)" },
+          img: "/food/meals/meal2.jpeg",
+          name: { en: "Tilapia Meal", ar: "وجبة بلطي " },
           price: "25",
           rate: null,
           calories: "689"
         },
         {
-          img: "salmon.png",
-          name: { en: "Gilthead Bream Meal", ar: "وجبة دنيس ( حبة دنيس– أرز – سلطات)" },
+          img: "/food/meals/meal3.png",
+          name: { en: "Gilthead Bream Meal", ar:  "وجبة دنيٍس" },
           price: "45",
           rate: null,
           calories: "567"
         },
         {
-          img: "salmon.png",
+          img: "/food/meals/meal4.jpeg",
           name: {
             en: "Sahil Alexandria's Meal (1 Sea Bream fish-4 Shrimp Skewers-100gm Squid-Seafood Soup-Rice-Salads)",
-            ar: "وجبة ساحل إسكندرية (حبة دنيس–4شيش جمبري 100جرام سبيط- 1شوربة سي فود–رز–سلطات)"
+            ar: "وجبة ساحل إسكندرية"
           },
           price: "75",
           rate: null,
@@ -76,3 +56,27 @@ export default {
   }
 };
 </script>
+<style>
+/* Your existing styles here */
+
+/* Media Queries for Responsive Design */
+
+/* For smaller devices (e.g., phones) */
+@media screen and (max-width: 768px) {
+  .category-title {
+    font-size: 40px;
+  }
+}
+
+/* For medium-sized devices (e.g., tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .category-title {
+    font-size: 50px;
+  }
+}
+
+/* For larger devices (e.g., desktops) */
+@media screen and (min-width: 1025px) {
+  /* No changes needed for larger devices */
+}
+</style>

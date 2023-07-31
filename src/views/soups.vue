@@ -1,11 +1,16 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="menu">
     <h1 class="category-title font-70 text-center">Soups - الشوربات</h1>
     <h3 class="category-description font-25 text-center">Request upon - حسب الطلب</h3>
     <div class="menu-items">
       <v-row align="center" justify="center">
-        <v-col cols="12" md="4" v-for="(item, index) in items" :key="index" class="menu-item">
+        <v-col
+          cols="12"
+          md="4"
+          v-for="(item, index) in items"
+          :key="index"
+          class="menu-item"
+        >
           <MenuCard :index="index" :item="item" />
           <!--
           <div class="price-column">
@@ -38,24 +43,24 @@ export default {
       items: [
        
       {
-          img: "salmon.png",
-          name: { en: "Seafood Soup (white - red)", ar: "شوربة السي فود ( ابيض / أحمر )" },
+          img: "/food/soups/soup1.png",
+          name: { en: "Seafood Soup (white - red)", ar: "شوربة السي فود " },
           price: "25",
           rate: null,
           calories: "557"
         },
         {
-          img: "salmon.png",
+          img: "/food/soups/soup2.jpeg",
           name: { en: "Shrimp Soup", ar: "شوربة جمبري" },
           price: "20",
           rate: null,
           calories: "432"
         },
         {
-          img: "salmon.png",
+          img: "/food/soups/soup3.jpeg",
           name: {
-            en: "Sahil Alexandria's Soup (Shrimp-Squid-Greasy Grouper Fillet Crab-Mussels)",
-            ar: "شوربة ساحل إسكندرية (جمبري – سبيط – فلية هامور – كابوريا – بلح البحر )"
+            en: "Sahil Alexandria's Soup",
+            ar: "شوربة ساحل إسكندرية "
           },
           price: "30",
           rate: null,
@@ -70,3 +75,36 @@ export default {
   }
 };
 </script>
+
+<style>
+/* Your existing styles here */
+
+/* Media Queries for Responsive Design */
+
+/* For smaller devices (e.g., phones) */
+@media screen and (max-width: 768px) {
+  .category-title {
+    font-size: 40px;
+  }
+
+  .category-description {
+    font-size: 20px;
+  }
+}
+
+/* For medium-sized devices (e.g., tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .category-title {
+    font-size: 50px;
+  }
+
+  .category-description {
+    font-size: 25px;
+  }
+}
+
+/* For larger devices (e.g., desktops) */
+@media screen and (min-width: 1025px) {
+  /* No changes needed for larger devices */
+}
+</style>
