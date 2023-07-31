@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <footer>
     <v-container>
@@ -10,7 +11,7 @@
         </v-col>
         <v-col cols="12" lg="4">
           <div class="image">
-            <img src="/logo.png" alt="logo" />
+            <img src="@/assets/logo.png" alt="logo" />
           </div>
         </v-col>
         <v-col cols="12" lg="4">
@@ -30,5 +31,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>

@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="menu">
     <h1 class="category-title font-70">Meals - الوجبات – السلطات</h1>
@@ -40,53 +41,35 @@ export default {
       items: [
         {
           img: "salmon.png",
-          name: { en: "Green Salad", ar: "سلطة خضراء" },
-          price: "5",
+          name: { en: "Grey Mullet Meal", ar: "وجبة بوري ( حبة بوري – أرز – سلطات)" },
+          price: "40",
           rate: null,
-          calories: "15"
+          calories: "876"
         },
         {
           img: "salmon.png",
-          name: { en: "Sliced Green Salad", ar: "سلطة خضراء طرنشات" },
-          price: "5",
+          name: { en: "Tilapia Meal", ar: "وجبة بلطي ( حبة بلطي– أرز – سلطات)" },
+          price: "25",
           rate: null,
-          calories: 5
+          calories: "689"
         },
         {
           img: "salmon.png",
-          name: { en: "Gilthead Bream", ar: "دنيس" },
-          price: "60",
+          name: { en: "Gilthead Bream Meal", ar: "وجبة دنيس ( حبة دنيس– أرز – سلطات)" },
+          price: "45",
           rate: null,
-          calories: 658
+          calories: "567"
         },
         {
           img: "salmon.png",
-          name: { en: "Dammam’s Coral Trout", ar: "ناجل الدمام" },
-          price: "60",
+          name: {
+            en: "Sahil Alexandria's Meal (1 Sea Bream fish-4 Shrimp Skewers-100gm Squid-Seafood Soup-Rice-Salads)",
+            ar: "وجبة ساحل إسكندرية (حبة دنيس–4شيش جمبري 100جرام سبيط- 1شوربة سي فود–رز–سلطات)"
+          },
+          price: "75",
           rate: null,
-          calories: 781
+          calories: "1180"
         },
-        {
-          img: "salmon.png",
-          name: { en: "Medium Shrimp ", ar: " جمبري وسط  " },
-          price: "80",
-          rate: null,
-          calories: 456
-        },
-        {
-          img: "salmon.png",
-          name: { en: "Grilled Crabs", ar: "كابوريا مشوي" },
-          price: "55",
-          rate: null,
-          calories: 652
-        },
-        {
-          img: "salmon.png",
-          name: { en: "Creamy Crab Meat", ar: "كابوريا مخلية بالكريمة " },
-          price: "60",
-          rate: null,
-          calories: 359
-        }
         // Add more fish items here as needed
       ]
     };

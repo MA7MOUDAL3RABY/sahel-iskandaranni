@@ -40,53 +40,53 @@ export default {
       items: [
         {
           img: "salmon.png",
-          name: { en: "Green Salad", ar: "سلطة خضراء" },
-          price: "5",
+          name: { en: "Lemon Mint", ar: "ليمون نعناع" },
+          price: "12",
           rate: null,
-          calories: "15"
+          calories: "45"
         },
         {
           img: "salmon.png",
-          name: { en: "Sliced Green Salad", ar: "سلطة خضراء طرنشات" },
-          price: "5",
+          name: { en: "Mango", ar: "مانجو" },
+          price: "14",
           rate: null,
-          calories: 5
+          calories: "16"
         },
         {
           img: "salmon.png",
-          name: { en: "Gilthead Bream", ar: "دنيس" },
-          price: "60",
+          name: { en: "Mojito", ar: "موهيتو" },
+          price: "15",
           rate: null,
-          calories: 658
+          calories: "24"
         },
         {
           img: "salmon.png",
-          name: { en: "Dammam’s Coral Trout", ar: "ناجل الدمام" },
-          price: "60",
+          name: { en: "Orange", ar: "برتقال" },
+          price: "14",
           rate: null,
-          calories: 781
+          calories: "45"
         },
         {
           img: "salmon.png",
-          name: { en: "Medium Shrimp ", ar: " جمبري وسط  " },
-          price: "80",
+          name: { en: "Small Water Bottle", ar: "مياة صغير" },
+          price: "1",
           rate: null,
-          calories: 456
+          calories: "0"
         },
         {
           img: "salmon.png",
-          name: { en: "Grilled Crabs", ar: "كابوريا مشوي" },
-          price: "55",
+          name: { en: "Large Water Bottle", ar: "مياة كبيرة" },
+          price: "2",
           rate: null,
-          calories: 652
+          calories: "0"
         },
         {
           img: "salmon.png",
-          name: { en: "Creamy Crab Meat", ar: "كابوريا مخلية بالكريمة " },
-          price: "60",
+          name: { en: "Pepsi – Citrus – 7UP", ar: "بيبسي – حمضيات – سفن أب" },
+          price: "3",
           rate: null,
-          calories: 359
-        }
+          calories: "250"
+        },
         // Add more fish items here as needed
       ]
     };

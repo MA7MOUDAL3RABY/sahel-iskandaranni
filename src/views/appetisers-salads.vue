@@ -50,43 +50,43 @@ export default {
           name: { en: "Sliced Green Salad", ar: "سلطة خضراء طرنشات" },
           price: "5",
           rate: null,
-          calories: 5
+          calories: "14"
         },
         {
           img: "salmon.png",
-          name: { en: "Gilthead Bream", ar: "دنيس" },
-          price: "60",
+          name: { en: "Pickle", ar: "مخلل" },
+          price: "3",
           rate: null,
-          calories: 658
+          calories: "30"
         },
         {
           img: "salmon.png",
-          name: { en: "Dammam’s Coral Trout", ar: "ناجل الدمام" },
-          price: "60",
+          name: { en: "Marinated Tomatoes", ar: "طماطم متبله" },
+          price: "5",
           rate: null,
-          calories: 781
+          calories: "15"
         },
         {
           img: "salmon.png",
-          name: { en: "Medium Shrimp ", ar: " جمبري وسط  " },
-          price: "80",
+          name: { en: "Marinated Eggplant", ar: "باذنجان متبل" },
+          price: "5",
           rate: null,
-          calories: 456
+          calories: "18"
         },
         {
           img: "salmon.png",
-          name: { en: "Grilled Crabs", ar: "كابوريا مشوي" },
-          price: "55",
+          name: { en: "Baba ghanoush", ar: "بابا غنوج" },
+          price: "6",
           rate: null,
-          calories: 652
+          calories: "26"
         },
         {
           img: "salmon.png",
-          name: { en: "Creamy Crab Meat", ar: "كابوريا مخلية بالكريمة " },
-          price: "60",
+          name: { en: "Tahini", ar: "طحينة" },
+          price: "5",
           rate: null,
-          calories: 359
-        }
+          calories: "23"
+        },
         // Add more fish items here as needed
       ]
     };

@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <header>
     <v-app-bar color="white">
@@ -6,7 +7,7 @@
           <v-col cols="2">
             <v-app-bar-title>
               <router-link to="/">
-                <v-img width="150" class="my-2" src="/logo.png"></v-img>
+                <v-img width="150" class="my-2" src="@/assets/logo.png"></v-img>
               </router-link>
             </v-app-bar-title>
           </v-col>
