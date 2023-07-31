@@ -1,36 +1,25 @@
 <template>
   <div class="menu">
     <h1 class="category-title font-70 text-center">Fish - اسماك</h1>
-<<<<<<< HEAD
     <h3 class="category-description font-25 text-center">
       Request upon - حسب الطلب
     </h3>
     <h3 class="category-description font-25 text-center">
       ( زيت وليمون – سنجاري – مشوي – مقلي – جريل – صنيه بطاطس )
     </h3>
-=======
-    <h3 class="category-description font-25 text-center">Request upon - حسب الطلب</h3>
-    <h3
-      class="category-description font-25 text-center"
-    >( زيت وليمون – سنجاري – مشوي – مقلي – جريل – صنيه بطاطس )</h3>
->>>>>>> cdec2ea099c70c0bbffba8a1064564b24d7677fe
     <h3 class="category-description font-25 text-center">
       Oil &Lemon- Baked w/Vegetables “Singari” -Grilled - Fried-Griddle –
       Tray-Baked w/ Potatoes
     </h3>
     <div class="menu-items">
       <v-row align="center" justify="center">
-<<<<<<< HEAD
         <v-col
           cols="12"
           md="4"
-          v-for="(item, index) in fishItems"
+          v-for="(item, index) in items"
           :key="index"
           class="menu-item"
         >
-=======
-        <v-col cols="12" md="4" v-for="(item, index) in items" :key="index" class="menu-item">
->>>>>>> cdec2ea099c70c0bbffba8a1064564b24d7677fe
           <MenuCard :index="index" :item="item" />
           <!-- <div class="price-column">
             <div class="food-price">{{ item.price }}</div>
@@ -88,37 +77,22 @@ export default {
           calories: 781
         },
         {
-<<<<<<< HEAD
           img: "/food/salmon.png",
           name: { en: "Medium Shrimp ", ar: " جمبري وسط  " },
-=======
-          img: "salmon.png",
-          name: { en: "White Sea Bass", ar: "قاروص أبيض"},
->>>>>>> f5c82f760e35e4bba6d9f20e542d7f6e98deff21
           price: "80",
           rate: null,
           calories: 499
         },
         {
-<<<<<<< HEAD
           img: "/food/salmon.png",
           name: { en: "Grilled Crabs", ar: "كابوريا مشوي" },
-=======
-          img: "salmon.png",
-          name: { en: "Black Sea Bass", ar: "قاروص اسود"},
->>>>>>> f5c82f760e35e4bba6d9f20e542d7f6e98deff21
           price: "55",
           rate: null,
           calories: 478
         },
         {
-<<<<<<< HEAD
           img: "/food/salmon.png",
           name: { en: "Creamy Crab Meat", ar: "كابوريا مخلية بالكريمة " },
-=======
-          img: "salmon.png",
-          name: { en: "Spangled Emperor Sheeri", ar: "شعور" },
->>>>>>> f5c82f760e35e4bba6d9f20e542d7f6e98deff21
           price: "60",
           rate: null,
           calories: 951
