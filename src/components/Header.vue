@@ -5,11 +5,18 @@
         <v-row align="center" justify="space-between">
           <v-col cols="2">
             <v-app-bar-title>
-              <v-img width="150" class="my-2" src="@/assets/logo.png"></v-img>
+              <router-link to="/">
+                <v-img width="150" class="my-2" src="@/assets/logo.png"></v-img>
+              </router-link>
             </v-app-bar-title>
           </v-col>
           <v-col class="d-flex justify-end">
-            <router-link class="menu-item" v-for="(item, i) in menu" :key="i" :to="item.to">{{item.name.en}}</router-link>
+            <router-link
+              class="menu-item"
+              v-for="(item, i) in menu"
+              :key="i"
+              :to="item.to"
+            >{{item.name.en}}</router-link>
           </v-col>
         </v-row>
       </v-container>

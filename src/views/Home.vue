@@ -3,17 +3,14 @@
     <h1 class="category-title font-70 text-center">اسماك</h1>
     <h1 class="category-title text-center">Fish</h1>
     <h3 class="category-description text-center">حسب الطلب request Upon:</h3>
-    <h3 class="category-description text-center">( زيت وليمون – سنجاري – مشوي – مقلي – جريل – صنيه بطاطس )</h3>
+    <h3
+      class="category-description text-center"
+    >( زيت وليمون – سنجاري – مشوي – مقلي – جريل – صنيه بطاطس )</h3>
     <h3 class="category-description text-center">
       Oil &Lemon- Baked w/Vegetables “Singari” -Grilled - Fried-Griddle –
       Tray-Baked w/ Potatoes
     </h3>
     <div class="menu-items">
-      <div class="food-image-container">
-        <div class="item-description">item</div>
-        <div class="price-description">price</div>
-      </div>
-
       <div v-for="(item, index) in fishItems" :key="index" class="menu-item">
         <div class="price-column">
           <div class="food-price">{{ item.price }}</div>
@@ -28,7 +25,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -115,10 +111,6 @@ export default {
   font-size: 18px;
   margin-bottom: 30px;
 }
-
-
-
-
 
 .food-image-container {
   display: flex;
