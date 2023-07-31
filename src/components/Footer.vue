@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <footer>
     <v-container>
@@ -28,5 +29,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>
