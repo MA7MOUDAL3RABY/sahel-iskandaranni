@@ -1,99 +1,23 @@
 <template>
-  <div class="menu">
-    <h1 class="category-title font-70 text-center">اسماك</h1>
-    <h1 class="category-title text-center">Fish</h1>
-    <h3 class="category-description text-center">حسب الطلب request Upon:</h3>
-    <h3
-      class="category-description text-center"
-    >( زيت وليمون – سنجاري – مشوي – مقلي – جريل – صنيه بطاطس )</h3>
-    <h3 class="category-description text-center">
-      Oil &Lemon- Baked w/Vegetables “Singari” -Grilled - Fried-Griddle –
-      Tray-Baked w/ Potatoes
-    </h3>
-    <div class="menu-items">
-      <div v-for="(item, index) in fishItems" :key="index" class="menu-item">
-        <div class="price-column">
-          <div class="food-price">{{ item.price }}</div>
-          <div class="calories">{{ item.calories }}CAL</div>
-        </div>
-        <div class="food-details">
-          <div class="food-name">{{ item.name }}</div>
-          <div v-if="item.arabicDescription" class="food-description">{{ item.arabicDescription }}</div>
-          <div class="food-nameen">{{ item.nameen }}</div>
-
-          <div v-if="item.englishDescription" class="food-description">{{ item.englishDescription }}</div>
-        </div>
-      </div>
+  <div>
+    <v-spacer></v-spacer>
+    <div class="my-5"></div>
+    <h2 class="font-70 text-center heading">ساحل إسكندراني</h2>
+    <h2 class="sub-heading text-center">للمأكولات البحرية</h2>
+    <div class="my-5"></div>
+    <div class="d-flex align-center justify-center" data-aos="flip-in">
+      <v-col cols="12" lg="6">
+        <v-img class="my-2" src="/home-image.png"></v-img>
+      </v-col>
     </div>
+    <div class="my-5"></div>
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {
-      fishItems: [
-        {
-          name: " سلمون",
-          arabicDescription: "",
-          nameen: "Salmon",
-          englishDescription: "",
-
-          price: "85",
-          calories: "458"
-        },
-        {
-          name: "كنعد",
-          arabicDescription: "",
-          nameen: "King Mackerel",
-          englishDescription: "",
-
-          price: "80",
-          calories: 781
-        },
-        {
-          name: "دنيس",
-          arabicDescription: "",
-          nameen: "Gilthead Bream",
-          englishDescription: "",
-
-          price: "60",
-          calories: 658
-        },
-        {
-          name: "ناجل الدمام",
-          arabicDescription: "",
-          nameen: "Dammam’s Coral Trout",
-          englishDescription: "",
-
-          price: "60",
-          calories: 781
-        },
-        {
-          name: " جمبري وسط  ",
-          arabicDescription: "  (مشوي – مقلي) (زبدة - شيش) ",
-
-          nameen: "Medium Shrimp ",
-          englishDescription: " (grilled - fried) (butter - skewers) ",
-
-          price: "80",
-          calories: 456
-        },
-        {
-          name: "كابوريا مشوي",
-          nameen: "Grilled Crabs",
-          price: "55",
-          calories: 652
-        },
-        {
-          name: "كابوريا مخلية بالكريمة ",
-          nameen: "Creamy Crab Meat",
-          price: "60",
-          calories: 359
-        }
-        // Add more fish items here as needed
-      ]
-    };
+    return {};
   }
 };
 </script>
@@ -103,41 +27,14 @@ export default {
   text-align: center;
 }
 
-.category-title {
-  margin-bottom: 10px;
+.heading {
+  font-size: 70px;
+  color: #0056b2; /* You can adjust the color to match your design */
 }
 
-.category-description {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.food-image-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; /* Align the content to the left */
-  margin-bottom: 20px;
-}
-
-.food-image {
-  width: 150px; /* Increase the width to make it bigger */
-  height: 150px; /* Increase the height to make it bigger */
-  border-radius: 50%;
-}
-.item-description {
-  font-size: 18px;
-  color: #007bff; /* You can adjust the color to match your design */
-  margin-bottom: 10px;
-}
-
-.price-description {
-  font-size: 18px;
-  color: #007bff; /* You can adjust the color to match your design */
-}
-
-.calories-description {
-  font-size: 14px;
-  color: #007bff; /* You can adjust the color to match your design */
+.sub-heading {
+  font-size: 50px;
+  color: #ea8f34; /* You can adjust the color to match your design */
   margin-top: 5px;
 }
 

@@ -4,12 +4,12 @@
     :loading="loading"
     class="mx-auto my-12"
     max-width="500"
-    data-aos="fade-right"
+    data-aos="zoom-out"
     border
     :data-aos-delay="(index * 250)"
-    data-aos-anchor-placement="top-center"
   >
-    <img height="250" :src="`@/assets/${item.img}`" />
+    <!-- <img :src="item.img" /> -->
+    <v-img width="150" class="my-2" :src="item.img"></v-img>
 
     <v-card-item>
       <v-card-title class="font-30 py-2">{{item.name.ar}}</v-card-title>

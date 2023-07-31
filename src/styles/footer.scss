@@ -1,6 +1,60 @@
 footer {
 	background: url('@/assets/footer-bg.png') no-repeat top center / cover;
 
+	.qr {
+		width: 150px;
+		background-color: white;
+		padding: 10px;
+		border-radius: 10px;
+
+		img {
+			width: 100%;
+			display: block;
+			margin: auto;
+		}
+	}
+
+	.social {
+		margin: 10px auto;
+		display: flex;
+		align-items: center;
+
+		.icon {
+			color: #01c8f0;
+			font-size: 30px;
+			margin: 10px;
+
+			svg {
+				fill: #01c8f0;
+				max-width: 20px;
+			}
+		}
+	}
+
+	.contact {
+		padding: 2vw;
+		direction: rtl;
+
+		.address {
+			color: white;
+		}
+
+		div {
+			margin: 5px auto;
+
+			.icon {
+				margin: 5px;
+				color: #e77809;
+			}
+
+			a {
+				font-size: 20px;
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+
 	.image {
 		background-color: white;
 		border-radius: 10px;

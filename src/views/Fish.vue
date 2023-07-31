@@ -52,14 +52,14 @@ export default {
     return {
       items: [
         {
-          img: "food/2.png",
+          img: "/food/appetizers/image039.png",
           name: { en: "Salmon", ar: " سلمون" },
           price: "85",
           rate: "3",
           calories: "458"
         },
         {
-          img: "/food/salmon.png",
+          img: "/food/appetizers/image039.png",
           name: { en: "King Mackerel", ar: "كنعد" },
           price: "80",
           rate: "3",
@@ -73,7 +73,7 @@ export default {
           calories: 658
         },
         {
-          img: "/food/salmon.png",
+          img: "/food/appetizers/image046.png",
           name: { en: "Dammam’s Coral Trout", ar: "ناجل الدمام" },
           price: "60",
           rate: "4.5",
