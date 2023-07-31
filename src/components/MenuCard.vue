@@ -2,16 +2,16 @@
   <v-card
     v-bind:="$attrs"
     :loading="loading"
-    class="mx-auto my-12"
+    class="menu-card mx-auto my-12"
     max-width="500"
-    data-aos="zoom-out"
     border
+    data-aos="zoom-out"
     :data-aos-delay="(index * 250)"
   >
     <!-- <img :src="item.img" /> -->
-    <v-img width="150" class="my-2" :src="item.img"></v-img>
+    <v-img :src="item.img"></v-img>
 
-    <v-card-item>
+    <v-card-item class="text-center my-5">
       <v-card-title class="font-30 py-2">{{item.name.ar}}</v-card-title>
       <v-card-title class="font-30 py-2">{{item.name.en}}</v-card-title>
     </v-card-item>
@@ -80,3 +80,10 @@ export default {
   }
 };
 </script>
+
+<style>
+.menu-card {
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
+}
+</style>
