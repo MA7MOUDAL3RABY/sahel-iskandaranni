@@ -3,13 +3,10 @@
 
 body {
 	background: url('@/assets/bg.png');
-	font-family: 'Noto Kufi Arabic', sans-serif;
-	font-family: 'Edu SA Beginner', cursive;
-	font-family: 'Noto Kufi Arabic', sans-serif;
+	font-family: 'Noto Kufi Arabic', 'Edu SA Beginner';
+ 
 
 	* {
-		font-family: 'Noto Kufi Arabic', sans-serif !important;
-		font-family: 'Edu SA Beginner', cursive;
-		font-family: 'Noto Kufi Arabic', sans-serif;
+		font-family: 'Noto Kufi Arabic', 'Edu SA Beginner';
 	}
 }

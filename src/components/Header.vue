@@ -8,7 +8,7 @@
               <v-img width="150" class="my-2" src="@/assets/logo.png"></v-img>
             </v-app-bar-title>
           </v-col>
-          <v-col cols>
+          <v-col class="d-flex justify-end">
             <router-link class="menu-item" v-for="(item, i) in menu" :key="i" :to="item.to">{{item.name.en}}</router-link>
           </v-col>
         </v-row>
@@ -25,7 +25,7 @@ export default {
         {
           name: {
             ar: "أسماك",
-            en: "FISH"
+            en: "Fish"
           },
           to: "/fish"
         },

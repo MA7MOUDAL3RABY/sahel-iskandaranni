@@ -9,8 +9,8 @@ const routes = [{
   component: () => import('@/layouts/Web.vue'),
   children: [{
       path: '/',
-      name: 'Fish',
-      component: () => import('@/views/Fish.vue'),
+      name: 'Home',
+      component: () => import('@/views/Home.vue'),
     },
     {
       path: '/fish',
