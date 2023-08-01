@@ -1,10 +1,20 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="menu">
-    <h1 class="category-title font-70">Meals - الوجبات – السلطات</h1>
+    <div class="my-10 py-5"></div>
+    <h1 class="category-title font-70 my-10 text-center">Meals | الوجبات – السلطات</h1>
+    <div class="my-10"></div>
+
     <div class="menu-items">
       <v-row align="center" justify="center">
-        <v-col cols="12" md="4" sm="6" v-for="(item, index) in items" :key="index" class="menu-item">
+        <v-col
+          cols="12"
+          md="4"
+          sm="6"
+          v-for="(item, index) in items"
+          :key="index"
+          class="menu-item"
+        >
           <MenuCard :index="index" :item="item" />
         </v-col>
       </v-row>
@@ -35,7 +45,7 @@ export default {
         },
         {
           img: "/food/meals/meal3.png",
-          name: { en: "Gilthead Bream Meal", ar:  "وجبة دنيٍس" },
+          name: { en: "Gilthead Bream Meal", ar: "وجبة دنيٍس" },
           price: "45",
           rate: null,
           calories: "567"
@@ -43,13 +53,14 @@ export default {
         {
           img: "/food/meals/meal4.jpeg",
           name: {
-            en: "Sahil Alexandria's Meal (1 Sea Bream fish-4 Shrimp Skewers-100gm Squid-Seafood Soup-Rice-Salads)",
+            en:
+              "Sahil Alexandria's Meal (1 Sea Bream fish-4 Shrimp Skewers-100gm Squid-Seafood Soup-Rice-Salads)",
             ar: "وجبة ساحل إسكندرية"
           },
           price: "75",
           rate: null,
           calories: "1180"
-        },
+        }
         // Add more fish items here as needed
       ]
     };

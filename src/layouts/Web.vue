@@ -1,13 +1,11 @@
 <template>
   <div>
     <v-app class="overflow-hidden">
+      <loader />
       <app-header></app-header>
       <div class="my-10"></div>
-      <div class="my-10"></div>
       <v-spacer></v-spacer>
-      <v-container>
-        <router-view></router-view>
-      </v-container>
+      <router-view></router-view>
       <BackButton />
       <app-footer></app-footer>
     </v-app>
@@ -17,6 +15,7 @@
 <script>
 import AppHeader from "@/components/Header.vue";
 import AppFooter from "@/components/Footer.vue";
+import Loader from "@/components/Loader.vue";
 import BackButton from "@/components/BackButton.vue";
 
 export default {
@@ -24,7 +23,13 @@ export default {
     AppHeader,
     AppFooter,
     BackButton, // Add the BackButton component to the components list
+    Loader, // Add the BackButton component to the components list
   },
+  data() {
+    return {
+      overlay: true
+    };
+  }
 };
 </script>
 

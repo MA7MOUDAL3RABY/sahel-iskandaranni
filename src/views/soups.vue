@@ -1,5 +1,6 @@
 <template>
   <div class="menu">
+    <div class="my-10 py-5"></div>
     <h1 class="category-title font-70 text-center">Soups - الشوربات</h1>
     <h3 class="category-description font-25 text-center">Request upon - حسب الطلب</h3>
     <div class="menu-items">
@@ -42,8 +43,7 @@ export default {
   data() {
     return {
       items: [
-
-      {
+        {
           img: "/food/soups/soup1.png",
           name: { en: "Seafood Soup (white - red)", ar: "شوربة السي فود " },
           price: "25",
@@ -66,9 +66,7 @@ export default {
           price: "30",
           rate: null,
           calories: "690"
-        },
-
-
+        }
 
         // Add more fish items here as needed
       ]

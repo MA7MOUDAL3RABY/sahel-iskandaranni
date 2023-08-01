@@ -1,16 +1,18 @@
 <template>
   <div class="menu">
-    <h1 class="category-title font-70 text-center">Fish - اسماك</h1>
-    <h3 class="category-description font-25 text-center">
-      Request upon - حسب الطلب
-    </h3>
-    <h3 class="category-description font-25 text-center">
-      ( زيت وليمون – سنجاري – مشوي – مقلي – جريل – صنيه بطاطس )
-    </h3>
+    <div class="my-10 py-5"></div>
+    <div class="my-10"></div>
+
+    <h1 class="category-title font-70 text-center mt-10">Fish | اسماك</h1>
+    <h3 class="category-description font-25 text-center">Request upon - حسب الطلب</h3>
+    <h3
+      class="category-description font-25 text-center"
+    >( زيت وليمون – سنجاري – مشوي – مقلي – جريل – صنيه بطاطس )</h3>
     <h3 class="category-description font-25 text-center">
       Oil &Lemon- Baked w/Vegetables “Singari” -Grilled - Fried-Griddle –
       Tray-Baked w/ Potatoes
     </h3>
+    <div class="my-5"></div>
     <div class="menu-items">
       <v-row align="start" justify="center">
         <v-col
@@ -193,12 +195,14 @@ export default {
         },
         {
           img: "/food/griled-fish/21.jpeg",
-          name: { en: "Mussels (vinegar & garlic - soup)", ar: "محار (مرق بالخل والثوم)" },
+          name: {
+            en: "Mussels (vinegar & garlic - soup)",
+            ar: "محار (مرق بالخل والثوم)"
+          },
           price: "85",
           rate: null,
           calories: "960cal"
-        },
-
+        }
 
         // Add more fish items here as needed
       ]

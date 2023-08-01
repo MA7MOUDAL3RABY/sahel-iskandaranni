@@ -1,25 +1,107 @@
 <template>
   <div>
-    <h2 class="font-70 text-center heading">ساحل إسكندراني</h2>
-    <h2 class="sub-heading text-center">للمأكولات البحرية</h2>
+    <Banner />
     <div class="my-5"></div>
     <div class="my-5"></div>
-    <div class="d-flex align-center justify-center">
-      <v-col cols="12" lg="6">
-        <div class="my-5"></div>
-        <v-img class="my-2" src="/home-image.png"></v-img>
-        <div class="my-5"></div>
-      </v-col>
-    </div>
+    <v-container>
+      <v-row justify="center">
+        <v-col cols="12" lg="4" v-for="(item, i) in menu" :key="i">
+          <div class="my-5"></div>
+          <router-link class=" text-decoration-none" :to="item.to">
+            <v-card
+              border
+              class="d-block mx-auto py-3 rounded-lg"
+              data-aos="zoom-out"
+              max-width="300px"
+              :data-aos-delay="(index * 250)"
+            >
+              <!-- <img :src="item.img" /> -->
+              <div class="d-felx align-center justify-content-center">
+                <v-img cover width="100px" class="d-block mx-auto" :src="item.icon"></v-img>
+              </div>
+
+              <v-card-item class="text-center my-5">
+                <v-card-title class="font-30 py-2">{{item.name.ar}}</v-card-title>
+                <v-card-title class="font-30 py-2">{{item.name.en}}</v-card-title>
+              </v-card-item>
+            </v-card>
+          </router-link>
+          <div class="my-5"></div>
+        </v-col>
+      </v-row>
+    </v-container>
     <v-spacer></v-spacer>
     <div class="my-5"></div>
   </div>
 </template>
 
 <script>
+import Banner from "@/components/Banner.vue";
 export default {
+  components: {
+    Banner
+  },
   data() {
-    return {};
+    return {
+      menu: [
+        {
+          icon: "/icons/fish.png",
+          name: {
+            ar: "أسماك",
+            en: "Fish"
+          },
+          to: "/fish"
+        },
+        {
+          icon: "/icons/boil.png",
+          name: {
+            ar: "الطواجن",
+            en: "Stews"
+          },
+          to: "/stews"
+        },
+        {
+          icon: "/icons/rice.png",
+          name: {
+            ar: "الأرز – مكرونة",
+            en: "Rice & Pasta"
+          },
+          to: "/rice-pasta"
+        },
+        {
+          icon: "/icons/soup.png",
+          name: {
+            ar: "الشوربات",
+            en: "Soups"
+          },
+          to: "/soups"
+        },
+        {
+          icon: "/icons/meals.png",
+          name: {
+            ar: "الوجبات",
+            en: "Meals"
+          },
+          to: "/meals"
+        },
+        {
+          icon: "/icons/salad.png",
+          name: {
+            ar: "المقبلات – السلطات",
+            en: "Appetisers & Salads"
+          },
+          to: "/appetisers-salads"
+        },
+        {
+          icon: "/icons/juice.png",
+          name: {
+            ar: "المشروبات والعصائر",
+            en: "Beverages & Juices"
+          },
+          to: "/beverages-juices"
+        }
+      ]
+    };
   }
 };
 </script>
@@ -27,17 +109,6 @@ export default {
 <style>
 .menu {
   text-align: center;
-}
-
-.heading {
-  font-size: 70px;
-  color: #0056b2; /* You can adjust the color to match your design */
-}
-
-.sub-heading {
-  font-size: 50px;
-  color: #ea8f34; /* You can adjust the color to match your design */
-  margin-top: 5px;
 }
 
 .food-image img {

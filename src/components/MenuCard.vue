@@ -1,39 +1,40 @@
 <template>
-  <v-card
-    v-bind:="$attrs"
-    :loading="loading"
-    class="menu-card mx-auto my-12"
-    max-width="500"
-    border
-    data-aos="zoom-out"
-    :data-aos-delay="(index * 250)"
-  >
-    <!-- <img :src="item.img" /> -->
-    <v-img cover width="100%" min-height="350px" max-height="300px" :src="item.img"></v-img>
+  <div class="px-6 px-md-0">
+    <v-card
+      v-bind:="$attrs"
+      :loading="loading"
+      class="menu-card mx-auto my-12"
+      max-width="500"
+      border
+      data-aos="zoom-out"
+      :data-aos-delay="(index * 250)"
+    >
+      <!-- <img :src="item.img" /> -->
+      <v-img cover width="100%" min-height="350px" max-height="300px" :src="item.img"></v-img>
 
-    <v-card-item class="text-center my-5">
-      <v-card-title class="font-30 py-2">{{item.name.ar}}</v-card-title>
-      <v-card-title class="font-30 py-2">{{item.name.en}}</v-card-title>
-    </v-card-item>
+      <v-card-item class="text-center my-5">
+        <v-card-title class="font-30 py-2">{{item.name.ar}}</v-card-title>
+        <v-card-title class="font-30 py-2">{{item.name.en}}</v-card-title>
+      </v-card-item>
 
-    <v-card-text>
-      <v-row align="center" justify="space-between" class="mx-0 mt-3 px-5">
-        <div class="font-20">
-          <v-icon color="error" icon="mdi-fire-circle" size="small"></v-icon>
-          {{ item.calories }} Cal
-        </div>
-        <!-- <div class="text-grey my-3 text-center ms-4">4.5 (413)</div> -->
+      <v-card-text>
+        <v-row align="center" justify="space-between" class="mx-0 mt-3 px-5">
+          <div class="font-20">
+            <v-icon color="error" icon="mdi-fire-circle" size="small"></v-icon>
+            {{ item.calories }} Cal
+          </div>
+          <!-- <div class="text-grey my-3 text-center ms-4">4.5 (413)</div> -->
 
-        <div class="my-4 text-success font-20">
-          <v-icon color="light" icon="mdi-cash" size="small"></v-icon>
-          Price: {{ item.price }}
-        </div>
-      </v-row>
-    </v-card-text>
-    <!-- <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div> -->
+          <div class="my-4 text-success font-20">
+            <v-icon color="light" icon="mdi-cash" size="small"></v-icon>
+            Price: {{ item.price }}
+          </div>
+        </v-row>
+      </v-card-text>
+      <!-- <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div> -->
 
-    <!-- <v-divider v-if="item.rate" class="mx-4 my-3"></v-divider> -->
-    <!-- <div class="d-flex justify-center">
+      <!-- <v-divider v-if="item.rate" class="mx-4 my-3"></v-divider> -->
+      <!-- <div class="d-flex justify-center">
       <v-rating
         v-if="item.rate"
         :model-value="item.rate"
@@ -43,12 +44,12 @@
         readonly
         size="small"
       ></v-rating>
-    </div> -->
+      </div>-->
 
-    <!-- <v-card-title>{{item.name.en}}</v-card-title>
-    <v-card-title>{{item.name.ar}}</v-card-title>-->
+      <!-- <v-card-title>{{item.name.en}}</v-card-title>
+      <v-card-title>{{item.name.ar}}</v-card-title>-->
 
-    <!-- <div class="px-4">
+      <!-- <div class="px-4">
       <v-chip-group class="d-fledx align-center justify-center my-3">
         <v-chip>5:30PM</v-chip>
 
@@ -58,8 +59,9 @@
 
         <v-chip>9:00PM</v-chip>
       </v-chip-group>
-    </div>-->
-  </v-card>
+      </div>-->
+    </v-card>
+  </div>
 </template>
 <script>
 export default {

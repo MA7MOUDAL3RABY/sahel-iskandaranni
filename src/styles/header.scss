@@ -4,6 +4,12 @@
 	padding: 0 10px;
 	text-decoration: none;
 	color: #27a3fb;
+
+	&.router-link-exact-active {
+		color: #ff800a;
+		font-weight: bold;
+
+	}
 }
 
 .v-toolbar {

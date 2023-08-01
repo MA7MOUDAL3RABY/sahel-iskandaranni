@@ -1,5 +1,6 @@
 <template>
   <div class="menu">
+    <div class="my-10 py-5"></div>
     <h1 class="category-title font-70 text-center">Stews - طواجن</h1>
     <h3 class="category-description font-25 text-center">Request upon - حسب الطلب</h3>
     <h3 class="category-description font-25 text-center">

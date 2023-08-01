@@ -41,7 +41,7 @@
       <v-navigation-drawer v-model="drawer" temporary>
         <div class="d-flex h-100 flex-column justify-space-around px-3 py-5">
           <div v-for="(item, i) in menu" :key="i">
-            <router-link class="menu-item" :to="item.to">{{item.name.en}}</router-link>
+            <router-link class="menu-item" :class="{'active': $route.name == item.name.en}" :to="item.to">{{item.name.en}}</router-link>
             <v-divider></v-divider>
           </div>
         </div>
