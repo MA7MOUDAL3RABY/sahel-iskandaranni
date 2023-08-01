@@ -26,15 +26,15 @@
     <div class="d-block d-md-none">
       <v-app-bar color="white">
         <v-row align="center" justify="space-between" class="my-md-0">
+          <v-col cols="3">
+            <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+          </v-col>
           <v-col cols="4" md="2">
             <v-app-bar-title align="center">
               <router-link to="/">
                 <v-img width="150" class="my-2" src="/logo.png"></v-img>
               </router-link>
             </v-app-bar-title>
-          </v-col>
-          <v-col cols="3">
-            <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
           </v-col>
         </v-row>
       </v-app-bar>
