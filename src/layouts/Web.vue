@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app>
+    <v-app class="overflow-hidden">
       <app-header></app-header>
       <div class="my-10"></div>
       <div class="my-10"></div>

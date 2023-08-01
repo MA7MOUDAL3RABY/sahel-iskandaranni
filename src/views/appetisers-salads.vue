@@ -3,7 +3,7 @@
     <h1 class="category-title font-70">appetisers-salads - المقبلات – السلطات</h1>
     <div class="menu-items">
       <v-row align="center" justify="center">
-        <v-col cols="12" md="4" v-for="(item, index) in items" :key="index" class="menu-item">
+        <v-col cols="12" md="4" sm="6" v-for="(item, index) in items" :key="index" class="menu-item">
           <MenuCard :index="index" :item="item" />
         </v-col>
       </v-row>

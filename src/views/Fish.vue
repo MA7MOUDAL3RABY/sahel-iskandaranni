@@ -12,10 +12,11 @@
       Tray-Baked w/ Potatoes
     </h3>
     <div class="menu-items">
-      <v-row align="center" justify="center">
+      <v-row align="start" justify="center">
         <v-col
           cols="12"
           md="4"
+          sm="6"
           v-for="(item, index) in items"
           :key="index"
           class="menu-item"

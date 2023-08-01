@@ -4,7 +4,7 @@
     <h3 class="category-description font-25 text-center">Request upon - حسب الطلب</h3>
     <div class="menu-items">
       <v-row align="center" justify="center">
-        <v-col cols="12" md="4" v-for="(item, index) in items" :key="index" class="menu-item">
+        <v-col cols="12" md="4" sm="6" v-for="(item, index) in items" :key="index" class="menu-item">
           <MenuCard :index="index" :item="item" />
         </v-col>
       </v-row>
@@ -20,7 +20,7 @@ export default {
   data() {
     return {
       items: [
-       
+
       {
           img: "/food/ricepasta/rice1.jpeg",
           name: { en: "White Rice (Basmati)", ar: "أرز أبيض ( بسمتى )" },
@@ -56,8 +56,8 @@ export default {
           rate: null,
           calories: "596"
         },
-       
-        
+
+
 
         // Add more fish items here as needed
       ]

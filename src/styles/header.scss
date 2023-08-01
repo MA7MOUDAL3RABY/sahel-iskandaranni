@@ -5,3 +5,13 @@
 	text-decoration: none;
 	color: #27a3fb;
 }
+
+.v-toolbar {
+	top: 0 !important;
+}
+
+.v-navigation-drawer {
+	top: 10vh !important;
+	height: 90vh !important;
+	padding: 5vh 10px;
+}

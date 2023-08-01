@@ -1,17 +1,17 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <header>
-    <v-app-bar color="white">
+    <v-app-bar color="white" class="d-none d-md-block">
       <v-container>
-        <v-row align="center" justify="space-between">
-          <v-col cols="2">
-            <v-app-bar-title>
+        <v-row align="center" justify="space-between" class="my-5 my-md-0">
+          <v-col cols="12" md="2">
+            <v-app-bar-title align="center">
               <router-link to="/">
                 <v-img width="150" class="my-2" src="/logo.png"></v-img>
               </router-link>
             </v-app-bar-title>
           </v-col>
-          <v-col class="d-flex justify-end">
+          <v-col cols="12" md="10" class="d-flex flex-column flex-md-row justify-end">
             <router-link
               class="menu-item"
               v-for="(item, i) in menu"
@@ -22,6 +22,31 @@
         </v-row>
       </v-container>
     </v-app-bar>
+
+    <div class="d-block d-md-none">
+      <v-app-bar color="white">
+        <v-row align="center" justify="space-between" class="my-md-0">
+          <v-col cols="4" md="2">
+            <v-app-bar-title align="center">
+              <router-link to="/">
+                <v-img width="150" class="my-2" src="/logo.png"></v-img>
+              </router-link>
+            </v-app-bar-title>
+          </v-col>
+          <v-col cols="3">
+            <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+          </v-col>
+        </v-row>
+      </v-app-bar>
+      <v-navigation-drawer v-model="drawer" temporary>
+        <div class="d-flex h-100 flex-column justify-space-around px-3 py-5">
+          <div v-for="(item, i) in menu" :key="i">
+            <router-link class="menu-item" :to="item.to">{{item.name.en}}</router-link>
+            <v-divider></v-divider>
+          </div>
+        </div>
+      </v-navigation-drawer>
+    </div>
   </header>
 </template>
 
@@ -29,6 +54,7 @@
 export default {
   data() {
     return {
+      drawer: false,
       menu: [
         {
           name: {

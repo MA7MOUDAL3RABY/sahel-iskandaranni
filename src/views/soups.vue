@@ -7,6 +7,7 @@
         <v-col
           cols="12"
           md="4"
+          sm="6"
           v-for="(item, index) in items"
           :key="index"
           class="menu-item"
@@ -41,7 +42,7 @@ export default {
   data() {
     return {
       items: [
-       
+
       {
           img: "/food/soups/soup1.png",
           name: { en: "Seafood Soup (white - red)", ar: "شوربة السي فود " },
@@ -66,8 +67,8 @@ export default {
           rate: null,
           calories: "690"
         },
-       
-        
+
+
 
         // Add more fish items here as needed
       ]

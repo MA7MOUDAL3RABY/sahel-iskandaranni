@@ -13,6 +13,7 @@
         <v-col
           cols="12"
           md="4"
+          sm="6"
           v-for="(item, index) in items"
           :key="index"
           class="menu-item"
@@ -47,7 +48,7 @@ export default {
   data() {
     return {
       items: [
-       
+
         {
           img: "/food/Stews/Stews1.png",
           name: { en: "Squid Stew", ar: "طاجن سبيط" },
@@ -97,8 +98,8 @@ export default {
           rate: null,
           calories: "380"
         },
-       
-        
+
+
 
         // Add more fish items here as needed
       ]
