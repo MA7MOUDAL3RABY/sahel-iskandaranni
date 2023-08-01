@@ -5,9 +5,9 @@
       <v-row align="center" justify="center">
         <v-col cols="12" lg="4">
           <div class="d-flex flex-column justify-center align-center">
-            <div class="qr">
+            <!-- <div class="qr">
               <img src="/qrcode.png" alt="logo" />
-            </div>
+            </div> -->
             <div class="social">
               <a href="https://web.facebook.com/Sahel1alex/" target="_blank">
                 <v-icon class="icon">mdi-facebook</v-icon>

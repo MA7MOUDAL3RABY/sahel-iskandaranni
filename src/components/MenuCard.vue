@@ -32,8 +32,8 @@
     </v-card-text>
     <!-- <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div> -->
 
-    <v-divider v-if="item.rate" class="mx-4 my-3"></v-divider>
-    <div class="d-flex justify-center">
+    <!-- <v-divider v-if="item.rate" class="mx-4 my-3"></v-divider> -->
+    <!-- <div class="d-flex justify-center">
       <v-rating
         v-if="item.rate"
         :model-value="item.rate"
@@ -43,7 +43,7 @@
         readonly
         size="small"
       ></v-rating>
-    </div>
+    </div> -->
 
     <!-- <v-card-title>{{item.name.en}}</v-card-title>
     <v-card-title>{{item.name.ar}}</v-card-title>-->

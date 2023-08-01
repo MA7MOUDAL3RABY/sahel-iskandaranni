@@ -8,19 +8,23 @@
       <v-container>
         <router-view></router-view>
       </v-container>
-
+      <BackButton />
       <app-footer></app-footer>
     </v-app>
   </div>
 </template>
+
 <script>
 import AppHeader from "@/components/Header.vue";
 import AppFooter from "@/components/Footer.vue";
+import BackButton from "@/components/BackButton.vue";
+
 export default {
   components: {
     AppHeader,
-    AppFooter
-  }
+    AppFooter,
+    BackButton, // Add the BackButton component to the components list
+  },
 };
 </script>
 
