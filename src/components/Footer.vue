@@ -46,10 +46,10 @@
               <v-icon class="icon">mdi-phone</v-icon>
               <a href="tel:0593657306">0593657306</a>
             </div>
-            <div>
+            <!-- <div>
               <v-icon class="icon">mdi-email</v-icon>
               <a href="tel:0593657306">email@example.com</a>
-            </div>
+            </div> -->
             <div class="address d-flex">
               <v-icon class="icon">mdi-map-marker</v-icon>
               <span>
