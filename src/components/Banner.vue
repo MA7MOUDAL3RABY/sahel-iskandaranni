@@ -6,7 +6,7 @@
           width="60%"
           class="d-block mx-auto"
           :lazy="true"
-          :src="'/logo.webp'"
+          :src="'/logo.png'"
           alt="banner logo"
         ></v-img>
         <h2 class="text-center heading" data-aos="fade-in-up">ساحل إسكندراني</h2>
@@ -29,7 +29,7 @@ export default {};
   position: relative;
   height: 90vh;
   width: 100vw;
-  background: url("banner.jpg") no-repeat top center / cover;
+  background: url("banner.webp") no-repeat top center / cover;
 
   .layer {
     position: absolute;
