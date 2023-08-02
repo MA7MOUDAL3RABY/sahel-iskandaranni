@@ -7,7 +7,7 @@
           <v-col cols="12" md="2">
             <v-app-bar-title align="center">
               <router-link to="/" aria-label="الرئيسية">
-                <v-img width="150" class="my-2" src="/logo.png" alt="header logo"></v-img>
+                <v-img width="150" class="my-2" src="/logo.png" :lazy="true" alt="header logo"></v-img>
               </router-link>
             </v-app-bar-title>
           </v-col>
@@ -33,7 +33,7 @@
           <v-col cols="4" md="2">
             <v-app-bar-title align="center">
               <router-link aria-label="home , الرئيسية" to="/">
-                <v-img width="150" class="my-2" src="/logo.png" alt="header mobile logo"></v-img>
+                <v-img width="150" class="my-2" src="/logo.png" :lazy="true" alt="header mobile logo"></v-img>
               </router-link>
             </v-app-bar-title>
           </v-col>
