@@ -6,10 +6,10 @@
           width="60%"
           class="d-block mx-auto"
           :lazy="true"
-          :src="'/logo.png'"
+          :src="'/logo.webp'"
           alt="banner logo"
         ></v-img>
-        <h2 class="font-70 text-center heading" data-aos="fade-in-up">ساحل إسكندراني</h2>
+        <h2 class="text-center heading" data-aos="fade-in-up">ساحل إسكندراني</h2>
         <h2
           class="sub-heading text-center"
           data-aos="fade-in-up"

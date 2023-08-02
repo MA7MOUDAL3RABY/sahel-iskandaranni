@@ -54,147 +54,147 @@ export default {
     return {
       items: [
         {
-          img: "/food/griled-fish/1.jpg",
+          img: "/food/griled-fish/1.webp",
           name: { en: "Salmon", ar: " سلمون" },
           price: "85",
           rate: "3",
           calories: "458"
         },
         {
-          img: "/food/griled-fish/2.png",
+          img: "/food/griled-fish/2.webp",
           name: { en: "King Mackerel", ar: "كنعد" },
           price: "80",
           rate: "3",
           calories: 781
         },
         {
-          img: "/food/griled-fish/3.png",
+          img: "/food/griled-fish/3.webp",
           name: { en: "Gilthead Bream", ar: "دنيس" },
           price: "60",
           rate: "2.5",
           calories: 658
         },
         {
-          img: "/food/griled-fish/4.png",
+          img: "/food/griled-fish/4.webp",
           name: { en: "Dammam’s Coral Trout", ar: "ناجل الدمام" },
           price: "60",
           rate: "4.5",
           calories: 781
         },
         {
-          img: "/food/griled-fish/5.png",
+          img: "/food/griled-fish/5.webp",
           name: { en: "Medium Shrimp ", ar: " جمبري وسط  " },
           price: "80",
           rate: null,
           calories: 499
         },
         {
-          img: "/food/griled-fish/6.jpeg",
+          img: "/food/griled-fish/6.webp",
           name: { en: "Grilled Crabs", ar: "كابوريا مشوي" },
           price: "55",
           rate: null,
           calories: 652
         },
         {
-          img: "/food/griled-fish/7.jpeg",
+          img: "/food/griled-fish/7.webp",
           name: { en: "Creamy Crab Meat", ar: "كابوريا مخلية بالكريمة " },
           price: "60",
           rate: null,
           calories: 359
         },
         {
-          img: "/food/griled-fish/8.png",
+          img: "/food/griled-fish/8.webp",
           name: { en: "Grey Mullet", ar: "بوري" },
           price: "55",
           rate: null,
           calories: 358
         },
         {
-          img: "/food/griled-fish/9.png",
+          img: "/food/griled-fish/9.webp",
           name: { en: "Fresh Tilapias", ar: "بلطي حى" },
           price: "32",
           rate: null,
           calories: 785
         },
         {
-          img: "/food/griled-fish/10.png",
+          img: "/food/griled-fish/10.webp",
           name: { en: "Mackerel", ar: "ماكريل" },
           price: "38",
           rate: null,
           calories: 726
         },
         {
-          img: "/food/griled-fish/11.jpeg",
+          img: "/food/griled-fish/11.webp",
           name: { en: "“Red Mullet “Sultan Ibrahim", ar: "سلطان ابراهيم" },
           price: "55",
           rate: null,
           calories: 658
         },
         {
-          img: "/food/griled-fish/12.jpeg",
+          img: "/food/griled-fish/12.webp",
           name: { en: "Bayad", ar: "بياض" },
           price: "40",
           rate: null,
           calories: 982
         },
         {
-          img: "/food/griled-fish/7.png",
+          img: "/food/griled-fish/7.webp",
           name: { en: "Greasy Grouper", ar: "هامور" },
           price: "70",
           rate: null,
           calories: 658
         },
         {
-          img: "/food/griled-fish/14.jpeg",
+          img: "/food/griled-fish/14.webp",
           name: { en: "Snapper", ar: "فارس" },
           price: "60",
           rate: null,
           calories: 458
         },
         {
-          img: "/food/griled-fish/15.jpeg",
+          img: "/food/griled-fish/15.webp",
           name: { en: "Jumbo Shrimp", ar: "جمبري جامبو" },
           price: "130",
           rate: null,
           calories: 472
         },
         {
-          img: "/food/griled-fish/16.jpeg",
+          img: "/food/griled-fish/16.webp",
           name: { en: "Medium Shrimp", ar: "جمبري وسط" },
           price: "80",
           rate: null,
           calories: 456
         },
         {
-          img: "/food/griled-fish/17.jpeg",
+          img: "/food/griled-fish/17.webp",
           name: { en: "Lobster", ar: "استاكوزا" },
           price: "140",
           rate: null,
           calories: 541
         },
         {
-          img: "/food/griled-fish/18.jpeg",
+          img: "/food/griled-fish/18.webp",
           name: { en: "Greasy Grouper Fillet", ar: "هامور فايليه" },
           price: "80",
           rate: null,
           calories: "593cal"
         },
         {
-          img: "/food/griled-fish/19.jpeg",
+          img: "/food/griled-fish/19.webp",
           name: { en: "Fried Squid", ar: "سمك السلمون المشوي" },
           price: "",
           rate: null,
           calories: ""
         },
         {
-          img: "/food/griled-fish/20.jpeg",
+          img: "/food/griled-fish/20.webp",
           name: { en: "Calamari", ar: "كالاماري" },
           price: "60",
           rate: null,
           calories: "952cal"
         },
         {
-          img: "/food/griled-fish/21.jpeg",
+          img: "/food/griled-fish/21.webp",
           name: {
             en: "Mussels (vinegar & garlic - soup)",
             ar: "محار (مرق بالخل والثوم)"

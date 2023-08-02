@@ -29,35 +29,35 @@ export default {
     return {
       items: [
         {
-          img: "/food/ricepasta/rice1.jpeg",
+          img: "/food/ricepasta/rice1.webp",
           name: { en: "White Rice (Basmati)", ar: "أرز أبيض ( بسمتى )" },
           price: "7",
           rate: null,
           calories: "458"
         },
         {
-          img: "/food/ricepasta/rice2.jpeg",
+          img: "/food/ricepasta/rice2.webp",
           name: { en: "Fisherman's Rice “Sayadieh”", ar: "أرز صيادية" },
           price: "10",
           rate: null,
           calories: "984"
         },
         {
-          img: "/food/ricepasta/rice3.jpeg",
+          img: "/food/ricepasta/rice3.webp",
           name: { en: "Seafood Rice", ar: "أرز سي فود" },
           price: "30",
           rate: null,
           calories: "965"
         },
         {
-          img: "/food/ricepasta/pasta1.jpeg",
+          img: "/food/ricepasta/pasta1.webp",
           name: { en: "Shrimp Pasta (white - red)", ar: "مكرونة  جمبري" },
           price: "30",
           rate: null,
           calories: "548"
         },
         {
-          img: "/food/ricepasta/pasta2.jpeg",
+          img: "/food/ricepasta/pasta2.webp",
           name: { en: "Seafood Pasta (white - red)", ar: "مكرونة  سي فود" },
           price: "35",
           rate: null,

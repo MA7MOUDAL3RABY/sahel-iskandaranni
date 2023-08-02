@@ -21,49 +21,49 @@ export default {
     return {
       items: [
         {
-          img: "/food/drinkes/drink1.png",
+          img: "/food/drinkes/drink1.webp",
           name: { en: "Lemon Mint", ar: "ليمون نعناع" },
           price: "12",
           rate: null,
           calories: "45"
         },
         {
-          img: "/food/drinkes/drink2.png",
+          img: "/food/drinkes/drink2.webp",
           name: { en: "Mango", ar: "مانجو" },
           price: "14",
           rate: null,
           calories: "16"
         },
         {
-          img: "/food/drinkes/drink3.jpeg",
+          img: "/food/drinkes/drink3.webp",
           name: { en: "Mojito", ar: "موهيتو" },
           price: "15",
           rate: null,
           calories: "24"
         },
         {
-          img: "/food/drinkes/drink4.jpeg",
+          img: "/food/drinkes/drink4.webp",
           name: { en: "Orange", ar: "برتقال" },
           price: "14",
           rate: null,
           calories: "45"
         },
         {
-          img: "/food/drinkes/drink5.jpeg",
+          img: "/food/drinkes/drink5.webp",
           name: { en: "Small Water Bottle", ar: "مياة صغير" },
           price: "1",
           rate: null,
           calories: "0"
         },
         {
-          img: "/food/drinkes/drink6.jpeg",
+          img: "/food/drinkes/drink6.webp",
           name: { en: "Large Water Bottle", ar: "مياة كبيرة" },
           price: "2",
           rate: null,
           calories: "0"
         },
         {
-          img: "/food/drinkes/drink7.png",
+          img: "/food/drinkes/drink7.webp",
           name: { en: "Pepsi – Citrus – 7UP", ar: "بيبسي – حمضيات – سفن أب" },
           price: "3",
           rate: null,

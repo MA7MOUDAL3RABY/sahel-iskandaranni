@@ -30,28 +30,28 @@ export default {
     return {
       items: [
         {
-          img: "/food/meals/meal1.jpeg",
+          img: "/food/meals/1.webp",
           name: { en: "Grey Mullet Meal", ar: "وجبة بوري " },
           price: "40",
           rate: null,
           calories: "876"
         },
         {
-          img: "/food/meals/meal2.jpeg",
+          img: "/food/meals/2.webp",
           name: { en: "Tilapia Meal", ar: "وجبة بلطي " },
           price: "25",
           rate: null,
           calories: "689"
         },
         {
-          img: "/food/meals/meal3.png",
+          img: "/food/meals/3.webp",
           name: { en: "Gilthead Bream Meal", ar: "وجبة دنيٍس" },
           price: "45",
           rate: null,
           calories: "567"
         },
         {
-          img: "/food/meals/meal4.jpeg",
+          img: "/food/meals/4.webp",
           name: {
             en:
               "Sahil Alexandria's Meal (1 Sea Bream fish-4 Shrimp Skewers-100gm Squid-Seafood Soup-Rice-Salads)",

@@ -28,49 +28,49 @@ export default {
     return {
       items: [
         {
-          img: "/food/appetizers/appe1.jpeg",
+          img: "/food/appetizers/appe1.webp",
           name: { en: "Green Salad", ar: "سلطة خضراء" },
           price: "5",
           rate: null,
           calories: "15"
         },
         {
-          img: "/food/appetizers/appe2.jpeg",
+          img: "/food/appetizers/appe2.webp",
           name: { en: "Sliced Green Salad", ar: "سلطة خضراء طرنشات" },
           price: "5",
           rate: null,
           calories: "14"
         },
         {
-          img: "/food/appetizers/appe3.jpeg",
+          img: "/food/appetizers/appe3.webp",
           name: { en: "Pickle", ar: "مخلل" },
           price: "3",
           rate: null,
           calories: "30"
         },
         {
-          img: "/food/appetizers/appe4.png",
+          img: "/food/appetizers/appe4.webp",
           name: { en: "Marinated Tomatoes", ar: "طماطم متبله" },
           price: "5",
           rate: null,
           calories: "15"
         },
         {
-          img: "/food/appetizers/appe5.jpeg",
+          img: "/food/appetizers/appe5.webp",
           name: { en: "Marinated Eggplant", ar: "باذنجان متبل" },
           price: "5",
           rate: null,
           calories: "18"
         },
         {
-          img: "/food/appetizers/appe6.jpeg",
+          img: "/food/appetizers/appe6.webp",
           name: { en: "Baba ghanoush", ar: "بابا غنوج" },
           price: "6",
           rate: null,
           calories: "26"
         },
         {
-          img: "/food/appetizers/appe7.jpeg",
+          img: "/food/appetizers/appe7.webp",
           name: { en: "Tahini", ar: "طحينة" },
           price: "5",
           rate: null,

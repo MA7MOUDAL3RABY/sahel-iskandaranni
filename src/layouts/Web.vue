@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app class="overflow-hidden">
-      <loader />
+      <!-- <loader /> -->
       <app-header></app-header>
       <div class="my-13"></div>
       <v-spacer></v-spacer>
@@ -15,7 +15,7 @@
 <script>
 import AppHeader from "@/components/Header.vue";
 import AppFooter from "@/components/Footer.vue";
-import Loader from "@/components/Loader.vue";
+// import Loader from "@/components/Loader.vue";
 import BackButton from "@/components/BackButton.vue";
 
 export default {
@@ -23,7 +23,7 @@ export default {
     AppHeader,
     AppFooter,
     BackButton, // Add the BackButton component to the components list
-    Loader, // Add the BackButton component to the components list
+    // Loader, // Add the BackButton component to the components list
   },
   data() {
     return {

@@ -44,21 +44,21 @@ export default {
     return {
       items: [
         {
-          img: "/food/soups/soup1.png",
+          img: "/food/soups/soup1.webp",
           name: { en: "Seafood Soup (white - red)", ar: "شوربة السي فود " },
           price: "25",
           rate: null,
           calories: "557"
         },
         {
-          img: "/food/soups/soup2.jpeg",
+          img: "/food/soups/soup2.webp",
           name: { en: "Shrimp Soup", ar: "شوربة جمبري" },
           price: "20",
           rate: null,
           calories: "432"
         },
         {
-          img: "/food/soups/soup3.jpeg",
+          img: "/food/soups/soup3.webp",
           name: {
             en: "Sahil Alexandria's Soup",
             ar: "شوربة ساحل إسكندرية "

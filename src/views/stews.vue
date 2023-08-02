@@ -51,49 +51,49 @@ export default {
       items: [
 
         {
-          img: "/food/Stews/Stews1.png",
+          img: "/food/Stews/1.webp",
           name: { en: "Squid Stew", ar: "طاجن سبيط" },
           price: "45",
           rate: null,
           calories: "862"
         },
         {
-          img: "/food/Stews/Stews2.png",
+          img: "/food/Stews/2.webp",
           name: { en: "Shrimp Stew ", ar: "طاجن جمبري" },
           price: "45",
           rate: null,
           calories: "980"
         },
         {
-          img: "/food/Stews/Stews3.png",
+          img: "/food/Stews/3.webp",
           name: { en: "Mixed Stew ", ar: "طاجن ميكس " },
           price: "45",
           rate: null,
           calories: "548"
         },
         {
-          img: "/food/Stews/Stews4.png",
+          img: "/food/Stews/4.webp",
           name: { en: "Shrimp Fajita", ar: "فاهيتا جمبري" },
           price: "45",
           rate: null,
           calories: "872"
         },
         {
-          img: "/food/Stews/Stews5.png",
+          img: "/food/Stews/5.webp",
           name: { en: "Squid Fajita", ar: "فاهيتا سبيط" },
           price: "45",
           rate: null,
           calories: "872"
         },
         {
-          img: "/food/Stews/Stews6.jpeg",
+          img: "/food/Stews/6.webp",
           name: { en: "Mulukhiyah Stew with Shrimp", ar: "طاجن ملوخية بالجمبري" },
           price: "20",
           rate: null,
           calories: "452"
         },
         {
-          img: "/food/Stews/Stews7.jpeg",
+          img: "/food/Stews/7.webp",
           name: { en: "Plain Mulukhiyah Stew", ar: "طاجن ملوخية ساده" },
           price: "10",
           rate: null,

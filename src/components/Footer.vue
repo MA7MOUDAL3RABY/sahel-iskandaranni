@@ -5,9 +5,6 @@
       <v-row align="center" justify="center">
         <v-col cols="12" lg="4">
           <div class="d-flex flex-column justify-center align-center">
-            <!-- <div class="qr">
-              <img src="/qrcode.png" alt="logo" />
-            </div> -->
             <div class="social">
               <a href="https://web.facebook.com/Sahel1alex/" target="_blank">
                 <v-icon class="icon">mdi-facebook</v-icon>
@@ -36,7 +33,7 @@
         </v-col>
         <v-col cols="12" lg="4">
           <div class="image">
-            <img src="/logo.png" alt="footer logo" />
+            <v-img src="/logo.webp" :lazy="true" alt="footer logo"></v-img>
           </div>
         </v-col>
         <v-col cols="12" lg="4">

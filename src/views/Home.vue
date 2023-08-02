@@ -44,7 +44,7 @@ export default {
     return {
       menu: [
         {
-          icon: "/icons/fish.png",
+          icon: "/icons/fish.webp",
           name: {
             ar: "أسماك",
             en: "Fish"
@@ -52,7 +52,7 @@ export default {
           to: "/fish"
         },
         {
-          icon: "/icons/boil.png",
+          icon: "/icons/boil.webp",
           name: {
             ar: "الطواجن",
             en: "Stews"
@@ -60,7 +60,7 @@ export default {
           to: "/stews"
         },
         {
-          icon: "/icons/rice.png",
+          icon: "/icons/rice.webp",
           name: {
             ar: "الأرز – مكرونة",
             en: "Rice & Pasta"
@@ -68,7 +68,7 @@ export default {
           to: "/rice-pasta"
         },
         {
-          icon: "/icons/soup.png",
+          icon: "/icons/soup.webp",
           name: {
             ar: "الشوربات",
             en: "Soups"
@@ -76,7 +76,7 @@ export default {
           to: "/soups"
         },
         {
-          icon: "/icons/meals.png",
+          icon: "/icons/meals.webp",
           name: {
             ar: "الوجبات",
             en: "Meals"
@@ -84,7 +84,7 @@ export default {
           to: "/meals"
         },
         {
-          icon: "/icons/salad.png",
+          icon: "/icons/salad.webp",
           name: {
             ar: "المقبلات – السلطات",
             en: "Appetisers & Salads"
@@ -92,7 +92,7 @@ export default {
           to: "/appetisers-salads"
         },
         {
-          icon: "/icons/juice.png",
+          icon: "/icons/juice.webp",
           name: {
             ar: "المشروبات والعصائر",
             en: "Beverages & Juices"

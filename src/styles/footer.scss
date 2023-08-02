@@ -1,5 +1,6 @@
 footer {
-	background: url('@/assets/footer-bg.png') no-repeat top center / cover;
+	margin-top: 100px;
+	background: linear-gradient(#004857, #012730);
 
 	.qr {
 		width: 150px;
@@ -60,10 +61,11 @@ footer {
 		background-color: white;
 		border-radius: 10px;
 		width: 100%;
-		border: 4px solid #015d71;
-		margin: 0 auto 20px auto;
+		border: 6px solid #015d71;
+		margin: -50px auto 20px auto;
 
 		img {
+			border-radius: 10px;
 			width: 100%;
 			height: auto;
 			display: block;
