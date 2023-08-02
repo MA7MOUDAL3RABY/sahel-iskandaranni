@@ -16,7 +16,7 @@
               :data-aos-delay="(index * 250)"
             >
               <div class="d-felx align-center justify-content-center">
-                <v-img width="100px" class="d-block mx-auto" lazy-src="/bg.png" :src="item.icon"></v-img>
+                <v-img width="100px" class="d-block mx-auto" :lazy="true" :src="item.icon"></v-img>
               </div>
 
               <v-card-item class="text-center my-5">
