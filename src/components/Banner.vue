@@ -1,9 +1,22 @@
 <template>
   <div class="position-relative banner">
-    <img src="/banner.jpg" alt="banner image" />
+    <div class="banner-img">
+      <v-img lazy-src="/banner.jpg" src="/banner.jpg" alt="banner image"></v-img>
+    </div>
     <div class="content position-absolute bottom-0">
-      <h2 class="font-70 text-center heading" data-aos="fade-up">ساحل إسكندراني</h2>
-      <h2 class="sub-heading text-center" data-aos="fade-up" data-aos-delay="200">للمأكولات البحرية</h2>
+      <v-img
+        width="60%"
+        class="d-block mx-auto"
+        :lazy-src="'/logo.png'"
+        :src="'/logo.png'"
+        alt="banner logo"
+      ></v-img>
+      <h2 class="font-70 text-center heading" data-aos="fade-in-up">ساحل إسكندراني</h2>
+      <h2
+        class="sub-heading text-center"
+        data-aos="fade-in-up"
+        data-aos-delay="200"
+      >للمأكولات البحرية</h2>
     </div>
   </div>
 </template>
@@ -14,7 +27,8 @@ export default {};
 
   <style lang="scss" scoped>
 .banner {
-  img {
+  .banner-img {
+    filter: blur(4px) !important;
     min-height: 100vh;
     max-height: 100vh;
   }

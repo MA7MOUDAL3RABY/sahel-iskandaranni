@@ -7,7 +7,7 @@
       <v-row justify="center">
         <v-col cols="12" lg="4" v-for="(item, i) in menu" :key="i">
           <div class="my-5"></div>
-          <router-link class=" text-decoration-none" :to="item.to">
+          <router-link class="text-decoration-none" :aria-label="item.name.en" :to="item.to">
             <v-card
               border
               class="d-block mx-auto py-3 rounded-lg"
@@ -15,9 +15,8 @@
               max-width="300px"
               :data-aos-delay="(index * 250)"
             >
-              <!-- <img :src="item.img" /> -->
               <div class="d-felx align-center justify-content-center">
-                <v-img cover width="100px" class="d-block mx-auto" :src="item.icon"></v-img>
+                <v-img width="100px" class="d-block mx-auto" lazy-src="/bg.png" :src="item.icon"></v-img>
               </div>
 
               <v-card-item class="text-center my-5">

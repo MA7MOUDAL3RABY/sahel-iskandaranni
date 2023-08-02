@@ -36,7 +36,7 @@
         </v-col>
         <v-col cols="12" lg="4">
           <div class="image">
-            <img src="/logo.png" alt="logo" />
+            <img src="/logo.png" alt="footer logo" />
           </div>
         </v-col>
         <v-col cols="12" lg="4">

@@ -1,5 +1,5 @@
 <template>
-  <v-overlay class="loader-overlay" v-model="overlay">
+  <div class="loader-overlay" v-show="loading">
     <div class="pan-loader">
       <div class="loader"></div>
       <div class="pan-container">
@@ -8,29 +8,39 @@
       </div>
       <div class="shadow"></div>
     </div>
-  </v-overlay>
+  </div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      overlay: true
+      loading: true
     };
   },
   mounted() {
-    window.onload = () => (this.overlay = false);
+    const vm = this; // Store reference to the Vue instance
+    window.addEventListener("load", function() {
+      vm.loading = false; // Access the Vue data prop using the stored reference
+    });
   }
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .loader-overlay {
   background: white !important;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  min-width: 100vw;
+  position: fixed;
+  z-index: 9999999999999;
+
+  .hide {
+    display: none;
+  }
 }
 @keyframes loader {
   0% {

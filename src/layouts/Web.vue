@@ -3,7 +3,7 @@
     <v-app class="overflow-hidden">
       <loader />
       <app-header></app-header>
-      <div class="my-10"></div>
+      <div class="my-13"></div>
       <v-spacer></v-spacer>
       <router-view></router-view>
       <BackButton />

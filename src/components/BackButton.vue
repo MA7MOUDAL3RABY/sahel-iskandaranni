@@ -1,7 +1,7 @@
 <template>
   <div class="back-button d-block d-md-none">
     <v-btn v-if="$route.name != 'Home'">
-      <router-link to="/" class="back-button-link text-decoration-none p-2">
+      <router-link to="/" class="back-button-link text-decoration-none p-2" aria-label="عودة للرئيسية">
         <span class="back-button-text">عودة للرئيسية</span>
         <v-icon>mdi-arrow-right</v-icon>
       </router-link>

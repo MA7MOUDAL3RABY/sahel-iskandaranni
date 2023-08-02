@@ -6,13 +6,14 @@
         <v-row align="center" justify="space-between" class="my-5 my-md-0">
           <v-col cols="12" md="2">
             <v-app-bar-title align="center">
-              <router-link to="/">
-                <v-img width="150" class="my-2" src="/logo.png"></v-img>
+              <router-link to="/" aria-label="الرئيسية">
+                <v-img width="150" class="my-2" src="/logo.png" alt="header logo"></v-img>
               </router-link>
             </v-app-bar-title>
           </v-col>
           <v-col cols="12" md="10" class="d-flex flex-column flex-md-row justify-end">
             <router-link
+              :aria-label="item.name.en"
               class="menu-item"
               v-for="(item, i) in menu"
               :key="i"
@@ -31,8 +32,8 @@
           </v-col>
           <v-col cols="4" md="2">
             <v-app-bar-title align="center">
-              <router-link to="/">
-                <v-img width="150" class="my-2" src="/logo.png"></v-img>
+              <router-link aria-label="home , الرئيسية" to="/">
+                <v-img width="150" class="my-2" src="/logo.png" alt="header mobile logo"></v-img>
               </router-link>
             </v-app-bar-title>
           </v-col>
@@ -41,7 +42,12 @@
       <v-navigation-drawer v-model="drawer" temporary>
         <div class="d-flex h-100 flex-column justify-space-around px-3 py-5">
           <div v-for="(item, i) in menu" :key="i">
-            <router-link class="menu-item" :class="{'active': $route.name == item.name.en}" :to="item.to">{{item.name.en}}</router-link>
+            <router-link
+              :aria-label="item.name.en"
+              class="menu-item"
+              :class="{'active': $route.name == item.name.en}"
+              :to="item.to"
+            >{{item.name.en}}</router-link>
             <v-divider></v-divider>
           </div>
         </div>

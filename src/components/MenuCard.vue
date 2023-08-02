@@ -9,8 +9,7 @@
       data-aos="zoom-out"
       :data-aos-delay="(index * 250)"
     >
-      <!-- <img :src="item.img" /> -->
-      <v-img cover width="100%" min-height="350px" max-height="300px" :src="item.img"></v-img>
+        <v-img  cover width="100%" min-height="350px" max-height="300px" :src="item.img" lazy-src="/bg.png"></v-img>
 
       <v-card-item class="text-center my-5">
         <v-card-title class="font-30 py-2">{{item.name.ar}}</v-card-title>
