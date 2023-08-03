@@ -1,20 +1,30 @@
 <template>
   <div class="position-relative banner">
     <div class="layer">
-      <div class="content position-absolute bottom-0">
-        <v-img
-          width="60%"
-          class="d-block mx-auto"
-          :lazy="true"
-          :src="'/logo.png'"
-          alt="banner logo"
-        ></v-img>
-        <h2 class="text-center heading" data-aos="fade-in-up">ساحل إسكندراني</h2>
-        <h2
-          class="sub-heading text-center"
-          data-aos="fade-in-up"
-          data-aos-delay="200"
-        >للمأكولات البحرية</h2>
+      <div class="layer">
+        <div class="d-flex justify-center py-10">
+          <div class="pt-md-10 mt-md-10">
+            <div class="pt-md-10 mt-md-10">
+              <div class="pt-md-10 mt-md-10">
+                <div class="pt-md-10 mt-md-10">
+                  <v-img
+                    width="320"
+                    class="d-block mx-auto"
+                    :lazy="true"
+                    :src="'/logo.png'"
+                    alt="banner logo"
+                  ></v-img>
+                  <h2 class="text-center heading" data-aos="fade-in-up">ساحل إسكندراني</h2>
+                  <h2
+                    class="sub-heading text-center"
+                    data-aos="fade-in-up"
+                    data-aos-delay="200"
+                  >للمأكولات البحرية</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -32,10 +42,8 @@ export default {};
   background: url("banner.webp") no-repeat top center / cover;
 
   .layer {
-    position: absolute;
     background: #00000070;
-    top: 0;
-    left: 0;
+
     width: 100%;
     height: 100%;
   }
@@ -49,7 +57,6 @@ export default {};
   .content {
     position: absolute;
     bottom: 15vh;
-    left: calc(50vw - (50% / 2));
   }
   .heading {
     font-size: 5vw;
